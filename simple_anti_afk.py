@@ -9,6 +9,7 @@ spam_thread = None
 def spam():
     keys = ['w','a','s','d']
     i = 0
+    keyboard.press('shift') #camera lock for roblox
     while running == True:
         key = keys[i % 4]
         keyboard.press(key)
@@ -16,7 +17,6 @@ def spam():
         keyboard.release(key)
         time.sleep(0.2)
         i += 1
-
 def toggle_spam():
     global running, spam_thread
     if running:
