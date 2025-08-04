@@ -37,6 +37,6 @@ def toggle_mouse():
 
 
 keyboard.add_hotkey('f', failsafe_0)
-keyboard.add_hotkey('m',toggle_mouse)
+keyboard.add_hotkey('n',toggle_mouse)
 keyboard.wait()
 
